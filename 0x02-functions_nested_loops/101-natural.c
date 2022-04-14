@@ -3,6 +3,7 @@
 /**
  * main - Description: lists all the natural numbers below 1024(exclude)
  * that are multiples of 3 or 5.
+ * @void - main returns no value.
  *
  * Returns: Always 0.
  */
