@@ -2,12 +2,12 @@
 
 /**
  * _strcpy - Copy the strings pointed by src, including \0.
- * @scr: pointer
+ * @src: pointer
  * @dest: pointer
  * Return: the pointer to dest.
  */
 
-char *_strcpy(char *dest, char *scr)
+char *_strcpy(char *dest, char *src)
 {
 	int i, length;
 
