@@ -11,10 +11,10 @@ int _strcmp(char *s1, char *s2)
 {
 	int n = 0, g = 0;
 
-	while (s1[n] != '\0' && s2[n] != '\0' && g ==0)
+	while (s1[n] != '\0' && s2[n] != '\0' && g == 0)
 	{
 		g = s1[n] - s2[n];
-		g++;
+		n++;
 	}
 
 	return (g);
