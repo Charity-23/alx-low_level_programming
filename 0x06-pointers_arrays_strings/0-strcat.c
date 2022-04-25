@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatinate 2 strings.
+ * _strcat - conicatinate 2 strings.
  * @dest: first string.
  * @src: second string.
  * Return: string.
@@ -9,20 +9,20 @@
 
 char *_strcat(char *dest, char *scr)
 {
-	int i = 0, j = 0;
+	int i = 0, k = 0;
 
 	while (dest[i] != '\0')
 		i++;
 
-	while (scr[j] != '\0')
+	while (scr[k] != '\0')
 	{
-		dest[i] = scr[j];
+		dest[i] = scr[k];
 		i++;
-		j++;
+		k++;
 
 	}
 
-	dest[i] == '\0';
+	dest[i] = '\0';
 
 	return (dest);
 }
