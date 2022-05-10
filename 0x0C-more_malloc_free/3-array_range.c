@@ -19,6 +19,9 @@ int *array_range(int min, int max)
 	int size, i, j;
 
 	if (min > max)
+		return (0);
+
+	if (max > min)
 		size = max - min + 1;
 	else if (max == min)
 		size = 2;
