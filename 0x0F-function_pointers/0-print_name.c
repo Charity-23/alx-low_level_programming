@@ -2,12 +2,13 @@
 
 /**
  * print_name - Prints a name
- * @f: Function Pointer
- * @name: the name to be printed
- * Return: Always 0
+ * @name: names's main
+ * @f: void function
  */
-
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);
+	if (name && f)
+	{
+		f(name);
+	}
 }
