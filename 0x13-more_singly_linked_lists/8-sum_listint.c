@@ -2,7 +2,7 @@
 
 /**
  * sum_listint - returns sum of all data in list
- * head: points to list
+ * @head: points to list
  * Return: sum or 0
  */
 
